@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../CLEAN.CQRS.APPLICATION/CLEAN.CQRS.APPLICATION.csproj" />
+  </ItemGroup>
+
 </Project>
