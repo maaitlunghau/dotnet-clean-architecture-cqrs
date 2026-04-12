@@ -10,4 +10,8 @@
     <ProjectReference Include="../CLEAN.CQRS.DOMAIN/CLEAN.CQRS.DOMAIN.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.1.0" />
+  </ItemGroup>
+
 </Project>
