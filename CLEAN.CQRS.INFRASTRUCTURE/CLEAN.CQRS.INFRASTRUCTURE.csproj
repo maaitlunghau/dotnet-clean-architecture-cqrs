@@ -10,4 +10,17 @@
     <ProjectReference Include="../CLEAN.CQRS.APPLICATION/CLEAN.CQRS.APPLICATION.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Persistence/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.25">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
+  </ItemGroup>
+
 </Project>
