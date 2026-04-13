@@ -2,7 +2,7 @@ using AutoMapper;
 using CLEAN.CQRS.DOMAIN.Interfaces;
 using MediatR;
 
-namespace CLEAN.CQRS.INFRASTRUCTURE.Features.Users.Commands.UpdateUser;
+namespace CLEAN.CQRS.APPLICATION.Features.Users.Commands.UpdateUser;
 
 public class UpdateUserCommandHandler : IRequestHandler<UpdateUserCommand>
 {

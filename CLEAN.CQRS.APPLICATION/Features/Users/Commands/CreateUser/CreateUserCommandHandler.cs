@@ -3,7 +3,7 @@ using CLEAN.CQRS.DOMAIN.Interfaces;
 using AutoMapper;
 using MediatR;
 
-namespace CLEAN.CQRS.INFRASTRUCTURE.Features.Users.Commands.CreateUser;
+namespace CLEAN.CQRS.APPLICATION.Features.Users.Commands.CreateUser;
 
 public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
 {

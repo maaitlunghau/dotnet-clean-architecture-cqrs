@@ -11,14 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features/" />
-    <Folder Include="Features/Users/" />
-    <Folder Include="Features/Users/Commands/" />
-    <Folder Include="Features/Users/Commands/CreateUser/" />
-    <Folder Include="Features/Users/Commands/UpdateUser/" />
-    <Folder Include="Features/Users/Queries/" />
-    <Folder Include="Features/Users/Queries/GetAllUsers/" />
-    <Folder Include="Features/Users/Queries/GetById/" />
     <Folder Include="Persistence/" />
     <Folder Include="Persistence/Repositories/" />
   </ItemGroup>

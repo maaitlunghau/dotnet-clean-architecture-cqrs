@@ -3,7 +3,7 @@ using CLEAN.CQRS.APPLICATION.DTOs;
 using CLEAN.CQRS.DOMAIN.Interfaces;
 using MediatR;
 
-namespace CLEAN.CQRS.INFRASTRUCTURE.Features.Users.Queries.GetAllUsers;
+namespace CLEAN.CQRS.APPLICATION.Features.Users.Queries.GetAllUsers;
 
 public class GetAllUsersQueryHandler : IRequestHandler<GetAllUsersQuery, IEnumerable<UserDto>>
 {
