@@ -15,4 +15,8 @@
     <ProjectReference Include="../CLEAN.CQRS.INFRASTRUCTURE/CLEAN.CQRS.INFRASTRUCTURE.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers/" />
+  </ItemGroup>
+
 </Project>
